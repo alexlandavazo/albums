@@ -9,9 +9,6 @@ const AlbumDetail = ({album}) => {
       <CardSection>
         <Text>{album.title}</Text>
       </CardSection>
-      <CardSection>
-        <Text>{album.title}</Text>
-      </CardSection>
     </Card>
   );
 };
