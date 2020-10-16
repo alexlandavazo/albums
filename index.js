@@ -5,7 +5,8 @@ import AlbumList from './src/components/AlbumList';
 
 const App = () => {
   return (
-    <View>
+    // eslint-disable-next-line react-native/no-inline-styles
+    <View style={{flex: 1}}>
       <Header title={'Albums'} />
       <AlbumList />
     </View>
